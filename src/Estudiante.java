@@ -5,4 +5,13 @@ public class Estudiante extends Persona {
         super(fecha_nacimiento, nombre, edad, año_actual);
         this.grado = grado;
     }
+
+    public Integer getGrado() {
+        return grado;
+    }
+
+    public void setGrado(Integer grado) {
+        this.grado = grado;
+    }
 }
+
