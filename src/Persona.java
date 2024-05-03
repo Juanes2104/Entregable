@@ -46,4 +46,8 @@ public class Persona {
     public void setAño_actual(Integer año_actual) {
         this.año_actual = año_actual;
     }
+    public Integer calcular_fecha_nacimiento(){
+
+        return año_actual-edad;
+    }
 }
