@@ -22,5 +22,7 @@ public class Gerente extends empleado implements Calcular{
     public void setSalario_natural(Double salario_natural) {
         this.salario_natural = salario_natural;
     }
-
+    public double calcular_salario(){
+        return salario_natural+bono;
+    }
 }
